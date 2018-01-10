@@ -11,7 +11,7 @@ const api = {};
  * @param app
  * @param options
  */
-function onLoad(app, options) {
+function onload(app, options) {
     const config = app.c();
     const cfg = config.redis || options.redis;
     api.redis = new Redis(cfg);
@@ -22,6 +22,6 @@ function onLoad(app, options) {
  */
 module.exports = {
     namespace,
-    onLoad,
+    onload,
     api
 };
