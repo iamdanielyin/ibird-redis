@@ -13,7 +13,7 @@ const api = {};
  */
 function onload(app, options) {
     const config = app.c();
-    const cfg = config.redis || options.redis;
+    const cfg = options.redis || config.redis;
     api.redis = new Redis(cfg);
 }
 

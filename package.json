@@ -1,6 +1,6 @@
 {
   "name": "ibird-redis",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-alpha.3",
   "description": "Redis addon for ibird.",
   "main": "index.js",
   "repository": {
